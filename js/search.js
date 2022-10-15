@@ -4,18 +4,18 @@ function validateForm() {
     console.log(x.value);
     
     if (x.value === "about") {
-        window.location.href= "http://127.0.0.1:5500/about.html";
+        window.location.href= "https://subhratanu.github.io/web-accessibility/about.html";
         console.log("hello");
     }
     else if (x.value === "contact") {
-        window.location.href= "http://127.0.0.1:5500/contact.html";
+        window.location.href= "https://subhratanu.github.io/web-accessibility/contact.html";
         console.log("hello");
     }
     else if (x.value === "home") {
-        window.location.href= "http://127.0.0.1:5500";
+        window.location.href= "https://subhratanu.github.io/web-accessibility";
         console.log("hello");
     }
     else{
-        window.location.href= "http://127.0.0.1:5500/notfound.html";
+        window.location.href= "https://subhratanu.github.io/web-accessibility/notfound.html";
     }
 }
