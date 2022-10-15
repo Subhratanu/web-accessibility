@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Subhratanu's Photography</title>
+        <link rel="icon" href="image/logo1.jpg">
+        <link rel="stylesheet" href="css/about.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        </style>
+    </head>
+    <body>
+        <nav class="navc">
+            <button type="button" class="skip"><a href="#about">Skip to Content</a></button>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="image/logo1.jpg" style="margin-top: 10px;" height="30" width="50">Subhratanu's Photography</label>
+            <ul role="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+                <li><label for="searching">Search Page: </label></li>    
+                <li><input name="srch" class="srch" type="text" id="searching"></li>    
+                <li><input class="btn" type="submit" role="button" value="Search" onclick="validateForm()"></li>    
+            </ul>
+        </nav>
+        <section id="about">
+            <div class="section">
+                <div class="pic1">
+                    <img src="image/IMG-20200822-WA0116.jpg" class="imag" alt="Subhratanu Saha Image">
+                </div>
+                <div class="txt"><h1 style="font-size: 2rem;">Hello!</h1><br>
+                <h2>Welcome to Subhratanu's Photography Page.</h2><br>
+                <h3>I am Subhratanu, a nature and street photographer. Photography is all about 
+                    perception and thinking, most importantly playing with light. I hope you
+                    found it very interesting. Don't forget to connect us. <br>Thank You!
+                    <br><br>Hear more from us: <br><audio controls aria-label="Play the audio">
+                        <source src="audio/audio.mp3" type="audio/mpeg">
+                    </audio>
+                </h3><br>
+                <a href="contact.html"><button class="btn">Contact us for updates</button></a>
+                </div>
+            </div>
+        </section>
+        <section id="video">
+        <footer>
+            <center>
+                <label class="logo2">Website Designed by Subhratanu Saha | 2022 &copy;</label>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>     
+                </ul>
+            </center>
+        </footer>
+        </section>
+        <script src="js/search.js"></script>
+    </body>
+</html>

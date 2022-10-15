@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Subhratanu's Photography</title>
+        <link rel="icon" href="image/logo1.jpg">
+        <link rel="stylesheet" href="css/contact.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        </style>
+    </head>
+    <body>
+        <nav class="navc">
+            <button type="button" class="skip"><a href="#about">Skip to Content</a></button>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="image/logo1.jpg" style="margin-top: 10px;" height="30" width="50">Subhratanu's Photography</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>    
+                <li><label for="searching">Search Page: </label></li>    
+                <li><input name="srch" class="srch" type="text" id="searching"></li>    
+                <li><input class="btn" type="submit" role="button" value="Search" onclick="validateForm()"></li>
+            </ul>
+        </nav>
+        <section id="about">
+            <div class="section">
+                <center><h1 style="font-size: 2rem;">Contact Us</h1></center>
+                <div class="pic1">
+                    <i class="fas fa-home" title="Home Address" aria-label="Home Address"></i> <span>Kolkata, West Bengal</span><br>
+                    <i class="fas fa-envelope" title="Email Address" aria-label="Email Address"></i> <span >Subhratanu.photography@gmail.com</span><br>
+                    <i class="fas fa-phone" title="Contact Number" aria-label="Contact Number"></i> <span >8337072947</span>
+                </div>
+                <div class="txt"><br>
+                <form action="/" title="Fill the Form to contact us" aria-label="Fill the Form to contact us">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" class="srch"><br><br>
+                    <label for="phno">Phone Number</label>
+                    <input type="text" name="name" id="phno" class="srch"><br><br>
+                    <label for="textarea">Comments</label>
+                    <textarea id="textarea" class="srch"></textarea><br><br>
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+                </div>
+            </div>
+        </section>
+        <section id="video">
+        <footer>
+            <center>
+                <label class="logo2">Website Designed by Subhratanu Saha | 2022 &copy;</label>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>     
+                </ul>
+            </center>
+        </footer>
+        </section>
+        <script src="js/search.js"></script>
+    </body>
+</html>

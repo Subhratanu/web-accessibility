@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Subhratanu's Photography</title>
+        <link rel="icon" href="image/logo1.jpg">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        </style>
+    </head>
+    <body>
+        <nav class="navc">
+            <a class="skip" role="button" href="#home">Skip to Content</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><img src="image/logo1.jpg" style="margin-top: 10px;" height="30" width="50">Subhratanu's Photography</label>
+            <ul role="navigation">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+                <li><label for="searching">Search Page: </label></li>    
+                <li><input name="srch" class="srch" type="text" id="searching"></li>    
+                <li><input class="btn" type="submit" role="button" value="Search" onclick="validateForm()"></li>    
+            </ul>
+        </nav>
+        <section id="home" role="region">
+            <div class="section">
+                <div class="pic1">
+                    <img src="image/20220914212620_IMG_1624.jpg" class="imag" alt="Infinity Image">
+                </div>
+                <div class="txt" role="region"><h1 style="font-size: 2rem;">"Photography means Playing with Light"</h1><br>
+                <h2>Welcome to Subhratanu's Photography Page.</h2><br>
+                <h3>Taste the Digital Art!</h3><br>
+                <a href="#video"><button class="btn">Watch the Video</button></a></div>
+            </div>
+        </section>
+        <div class="sep"></div>
+        <section id="video">
+            <center><br><br><h1 style="font-size:2rem;">Learn Photography</h1><br>
+                <iframe width="580" height="400" src="https://www.youtube.com/embed/WXdAX0No2hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center>
+        <footer>
+            <center>
+                <label class="logo2">Website Designed by Subhratanu Saha | 2022 &copy;</label>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>     
+                </ul>
+            </center>
+        </footer>
+        </section>
+
+        <script src="js/search.js"></script>
+        
+    </body>
+</html>
